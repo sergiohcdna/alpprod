@@ -355,7 +355,7 @@ class alp_bremsstrahlung():
 
             integral += alp_spectra
 
-        integral *= nat.TeV**(-1) *nat.s * nat.cm**(-2)
+        integral *= nat.TeV**(-1)*nat.s**(-1)*nat.cm**(-2)
 
         self._prod_rate = integral
 
@@ -379,7 +379,7 @@ class alp_bremsstrahlung():
 
             integral += alp_spectra
 
-        integral *= nat.TeV**(-1) *nat.s * nat.cm**(-2)
+        integral *= nat.TeV**(-1)*nat.s**(-1)*nat.cm**(-2)
 
         self._prod_rate = integral
 
